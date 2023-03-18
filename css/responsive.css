@@ -1,5 +1,6 @@
 /*********************************  Responsive Media ***************************************/
 @media (max-width: 768px) {
+
     section.both-header .header nav.nav-menu{
         width: 280px;
         display: unset;
@@ -126,16 +127,8 @@
     section.service .container {
         padding: 0;
     }
-    .team-item{
-        height: 350px;
-    }
-    .projectFactsWrap {
-        display: grid;
-        grid-template-columns: unset;
-        grid-column-gap: 21px;
-        grid-row-gap: 10px;
-    }
-    /* section.logo .logo-flex img {
+/* 
+    section.logo .logo-flex img {
         width: 130px;
     }
 
@@ -160,6 +153,12 @@
     section.blog_slider button.owl-next{
         transform: translate(0px, -220px);
     } */
+    .projectFactsWrap {
+        display: grid;
+        grid-template-columns: unset;
+        grid-column-gap: 21px;
+        grid-row-gap: 10px;
+    }
     section.about {
         padding: 30px 0;
     }
@@ -174,7 +173,7 @@
     }
 
     section.Network {
-        padding-bottom: 50px;
+        padding-top: 0;
     }
 
     section.Network .map {
