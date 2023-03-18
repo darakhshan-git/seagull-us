@@ -1,6 +1,10 @@
 /*********************************  Responsive Media ***************************************/
 @media (max-width: 768px) {
-
+    section.both-header .header nav.nav-menu{
+        width: 280px;
+        display: unset;
+        justify-content: unset;
+    }
     .both-header .tophead{
         display: none;
     }
@@ -122,8 +126,16 @@
     section.service .container {
         padding: 0;
     }
-
-    section.logo .logo-flex img {
+    .team-item{
+        height: 350px;
+    }
+    .projectFactsWrap {
+        display: grid;
+        grid-template-columns: unset;
+        grid-column-gap: 21px;
+        grid-row-gap: 10px;
+    }
+    /* section.logo .logo-flex img {
         width: 130px;
     }
 
@@ -147,7 +159,7 @@
     }
     section.blog_slider button.owl-next{
         transform: translate(0px, -220px);
-    }
+    } */
     section.about {
         padding: 30px 0;
     }
