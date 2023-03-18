@@ -395,7 +395,7 @@ section.both-header .header nav.nav-menu{
     .header .close-nav-menu,
     .header .open-nav-menu {
         display: flex;
-        margin-right: 0;
+        margin-right: 35px;
     }
 }
 

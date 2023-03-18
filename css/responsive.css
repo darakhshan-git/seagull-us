@@ -47,9 +47,10 @@
 
     .both-header a.navbar-brand {
         width: 200px;
-        height: 65px;
+        height: 60px;
         left: -18px;
         padding: 10px 5px;
+        bottom: -28px;
     }
 
     .both-header a.navbar-brand img {
@@ -153,6 +154,9 @@
     section.blog_slider button.owl-next{
         transform: translate(0px, -220px);
     } */
+    section#projectFacts{
+        transform: unset;
+    }
     .projectFactsWrap {
         display: grid;
         grid-template-columns: unset;
