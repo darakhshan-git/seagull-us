@@ -1110,14 +1110,12 @@ section.abt-content {
     color: #fff;
     padding-bottom: 10px;
     text-align: center;
-    text-transform: uppercase;
     font-size: 20px;
 }
 
 .team-info .team-info-back p {
-    text-align: justify;
     color: #fff;
-    padding: 10px 5px;
+    padding: 10px 0px 0px;
     margin: 0;
     font-size: 15px;
     border-top: 1px solid rgba(255, 255, 255, .5)
