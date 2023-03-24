@@ -679,7 +679,9 @@ section.index.form h4 {
 section.index.form h2 {
     color: #fff !important;
 }
-
+/* section.index.form button {
+    width: 30%;
+} */
 /*====== logo css start ======
  section.logo {
     background: #00122F;
@@ -1608,6 +1610,7 @@ section.form form .icon {
     padding: 15px 50px;
     margin: 30px auto 0;
     display: block;
+    width: 30%;
 }
 
 .form button a {
