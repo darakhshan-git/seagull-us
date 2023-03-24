@@ -51,9 +51,11 @@ h2.maintitle {
     background: #F5F6FB;
     padding: 15px;
 }
-.both-header .tophead .container{
+
+.both-header .tophead .container {
     max-width: 1400px !important;
 }
+
 .both-header .tophead ul {
     display: flex;
     gap: 30px;
@@ -65,21 +67,26 @@ h2.maintitle {
 .both-header .tophead ul.socials {
     gap: 20px;
 }
+
 .both-header .tophead ul.socials li svg {
     font-size: 20px;
 }
-.both-header .tophead ul.socials li{
+
+.both-header .tophead ul.socials li {
     cursor: pointer;
 }
+
 .both-header .tophead ul li {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.both-header .tophead ul li a{
+
+.both-header .tophead ul li a {
     color: #6FA9CB;
 }
+
 .both-header .tophead .connect {
     display: flex;
     align-items: center;
@@ -111,11 +118,13 @@ h2.maintitle {
     left: -17px;
     bottom: -34px;
 }
-section.both-header .header nav.nav-menu{
+
+section.both-header .header nav.nav-menu {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .both-header a.navbar-brand img {
     width: 250px;
     transform: skew(-20deg);
@@ -475,9 +484,11 @@ section.abt-banner .bann-slide .banner-text button {
 section.cards p {
     color: #000;
 }
+
 section.cards h2.maintitle {
     border: unset;
 }
+
 section.cards .item {
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
     background: #FEFEFE;
@@ -581,9 +592,11 @@ section.service .service-text button {
 section.service .service-text button a {
     color: #FEFEFE;
 }
-section.service .service-text .title{
+
+section.service .service-text .title {
     width: 70%;
 }
+
 section.service .service-text .title h6 {
     text-transform: uppercase;
     color: #FEFEFE;
@@ -598,48 +611,59 @@ section.service .service-text .title p {
 /*====== service css end ======*/
 
 /*====== whyus css start ======*/
-section.whyus{
+section.whyus {
     padding: 50px 0 0;
 }
-section.whyus h2.maintitle{
-border: unset;
+
+section.whyus h2.maintitle {
+    border: unset;
 }
-section.whyus p{
+
+section.whyus p {
     color: #000;
 }
+
 section.whyus .whyright img {
     width: 100%;
     height: 500px;
 }
-section#projectFacts{
+
+section#projectFacts {
     transform: translate(0px, -95px);
 }
+
 .projectFactsWrap {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 0px;
 }
+
 .projectFactsWrap .item {
     background: #00235A;
     padding: 20px 30px;
 }
+
 .projectFactsWrap .item p {
     color: #fff;
     font-size: 17px;
 }
-.projectFactsWrap .item .number{
+
+.projectFactsWrap .item .number {
     font-size: 30px;
     font-weight: 600;
 }
+
 .projectFactsWrap .item .countsign {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.projectFactsWrap .item .countsign p.sign{
+
+.projectFactsWrap .item .countsign p.sign {
     font-size: 30px;
 }
+
 /*====== whyus css end ======*/
 
 
@@ -755,20 +779,24 @@ section.Network .map {
 section.Network .netText {
     padding: 100px 50px 0 0;
 }
-section.Network .form{
+
+section.Network .form {
     background-color: #00235A;
     padding: 30px 30px;
     border-radius: 10px;
 }
+
 section.Network .form h3 {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
+
 section.Network .form form .icon {
     transform: translate(215px, -39px);
     color: #00235A;
 }
+
 /* 
 section.Network .query-form {
     width: 100%;
@@ -819,9 +847,11 @@ section.Network .query-form form button a{
 section.testimonial {
     padding: 0px 0 50px;
 }
+
 section.testimonial h2.maintitle {
     border: unset;
 }
+
 section.testimonial .item {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -850,19 +880,24 @@ section.testimonial .testi-item h6 {
     color: #000;
     padding-top: 15px;
 }
+
 section.testimonial .testi-item .author {
     background: #F8F8F8;
     padding: 1px 20px;
 }
-section.testimonial .testi-item .author p{
+
+section.testimonial .testi-item .author p {
     font-size: 13px;
 }
-section.testimonial .testi-item:hover .author{
-    background-color:  #6FA9CB;
+
+section.testimonial .testi-item:hover .author {
+    background-color: #6FA9CB;
 }
-section.testimonial .testi-item:hover .author p{
+
+section.testimonial .testi-item:hover .author p {
     color: #00235A;
 }
+
 section.testimonial .owl-dots {
     position: absolute;
     top: 73%;
@@ -947,9 +982,11 @@ section.footer .foot-item p a {
     color: #FEFEFE;
     font-size: 13px;
 }
-section.footer .foot-item img{
+
+section.footer .foot-item img {
     width: 50%;
 }
+
 section.copyright {
     background: #00122F;
     padding: 15px 0;
@@ -1041,6 +1078,7 @@ section.team .person-card .card-text h3 {
     font-size: 17px;
     font-weight: 600;
 }
+
 section.team button {
     background: #00122F;
     padding: 15px 40px;
@@ -1050,9 +1088,11 @@ section.team button {
     display: block;
     border-radius: 8px;
 }
-section.team button a{
+
+section.team button a {
     color: #fff;
 }
+
 section.abt-content {
     padding: 100px 0 0 0;
 }
@@ -1092,7 +1132,7 @@ section.abt-content {
     background: #fff;
 }
 
- .team-item .team-info-front h3{
+.team-item .team-info-front h3 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1393,6 +1433,7 @@ section.blog-detail .detail-content p.secparah {
 section.service-page {
     padding-bottom: 100px;
 }
+
 section.service_card .item {
     text-align: center;
     cursor: pointer;
@@ -1400,15 +1441,18 @@ section.service_card .item {
     padding: 30px;
     height: 100%;
 }
+
 section.service_card .item h3 {
     color: #00235A;
     font-size: 20px;
     text-transform: capitalize;
     padding: 20px 0 10px;
 }
-section.service_card .item p{
+
+section.service_card .item p {
     height: 250px;
 }
+
 section.service_card .item .link_text {
     position: relative;
     margin-right: 0;
@@ -1418,11 +1462,12 @@ section.service_card .item .link_text {
     visibility: hidden;
     white-space: nowrap;
     opacity: 0;
-    -webkit-transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
-    -ms-transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
-    transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
-    will-change: visibility,margin-right,text-indent,opacity;
+    -webkit-transition: visibility 0.4s ease, margin-right 0.4s ease-out, text-indent 0.5s ease-out, opacity 0.4s ease;
+    -ms-transition: visibility 0.4s ease, margin-right 0.4s ease-out, text-indent 0.5s ease-out, opacity 0.4s ease;
+    transition: visibility 0.4s ease, margin-right 0.4s ease-out, text-indent 0.5s ease-out, opacity 0.4s ease;
+    will-change: visibility, margin-right, text-indent, opacity;
 }
+
 section.service_card .item .link_icon {
     position: relative;
     display: inline-block;
@@ -1433,15 +1478,18 @@ section.service_card .item .link_icon {
     line-height: 1.4em;
     text-align: center;
 }
-section.service_card .item:hover .link_text{
+
+section.service_card .item:hover .link_text {
     text-indent: 0px;
     visibility: visible;
     opacity: 1;
     color: #fff;
-} 
-section.service_card .item:hover .link_icon{
+}
+
+section.service_card .item:hover .link_icon {
     color: #fff;
 }
+
 /* section.service_card .item .link_icon:before {
     font-size: 11px;
     line-height: inherit;
@@ -1452,14 +1500,16 @@ section.service_card .item:hover .link_icon{
     vertical-align: top;
     color: currentColor;
 } */
-section.service_card .item:hover{
+section.service_card .item:hover {
     background-color: #00235A;
 }
-section.service_card .item:hover h3{
+
+section.service_card .item:hover h3 {
     color: #fff;
     transition: all 0.3s ease;
 }
-section.service_card .item:hover p{
+
+section.service_card .item:hover p {
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -1510,17 +1560,30 @@ section.service-page ul.org-list li {
 /*===================/
     contact us page css
  /=================*/
- section.form{
+section.form {
     padding: 0 0px 50px;
- }
- section.form h2 {
-    padding-bottom: 10px;
 }
- section.form form {
+
+section.form {
     background: #00235A;
-    padding: 30px;
+    padding: 50px 0;
+}
+
+section.form h4 {
+    color: #fff !important;
+}
+
+section.form h2 {
+    color: #fff !important;
+}
+
+section.form form {
     border-radius: 10px;
     margin-top: 20px;
+}
+
+section.form button {
+    width: 30%;
 }
 
 .form form .form-control {
@@ -1555,9 +1618,11 @@ section.form form .icon {
     margin: 30px auto 0;
     display: block;
 }
-.form button a{
+
+.form button a {
     color: #00235A;
 }
+
 section.map-location {
     padding-bottom: 100px;
 }
@@ -1567,39 +1632,46 @@ section.map-location .logo_add {
     padding: 20px 0;
     display: flex;
     justify-content: center;
-        align-items: center;
+    align-items: center;
     gap: 20px;
 }
+
 section.map-location .logo_add img {
     width: 100px;
 }
-section.map-location .logo_add p{
-color: #000;
-padding-top: 10px;
+
+section.map-location .logo_add p {
+    color: #000;
+    padding-top: 10px;
 }
+
 section.map-location .add_detail {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 0px;
 }
-section.map-location .add_detail .block{
+
+section.map-location .add_detail .block {
     background-color: #00235A;
     padding: 40px 20px;
     text-align: center;
 }
-section.map-location .add_detail .block h6{
+
+section.map-location .add_detail .block h6 {
     padding-bottom: 15px;
     color: #AFE0FC;
     font-size: 20px;
 }
-section.map-location .add_detail .block p{
-    margin: 0; 
+
+section.map-location .add_detail .block p {
+    margin: 0;
 }
 
-section.map-location .add_detail .block p a{
+section.map-location .add_detail .block p a {
     color: #AFE0FC;
 }
+
 /*===================/
     job detail page css
  /=================*/
@@ -1775,23 +1847,3 @@ button.home {
     background: #FF5E14 !important;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
