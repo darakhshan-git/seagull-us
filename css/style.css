@@ -460,12 +460,9 @@ section.banner_slider button {
 
 /*====== about css start ======*/
 section.about {
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
-section.about .abtright {
-    padding-top: 20px;
-}
 
 section.abt-banner .bann-slide .banner-text button {
     width: 25%;
@@ -475,6 +472,12 @@ section.abt-banner .bann-slide .banner-text button {
 /*====== about css end ======*/
 
 /*====== cards css end ======*/
+section.cards p {
+    color: #000;
+}
+section.cards h2.maintitle {
+    border: unset;
+}
 section.cards .item {
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
     background: #FEFEFE;
@@ -572,12 +575,15 @@ section.service .service-text button {
     padding: 10px 20px;
     font-size: 15px;
     border: #00122F;
+    margin-top: 40px;
 }
 
 section.service .service-text button a {
     color: #FEFEFE;
 }
-
+section.service .service-text .title{
+    width: 70%;
+}
 section.service .service-text .title h6 {
     text-transform: uppercase;
     color: #FEFEFE;
@@ -593,7 +599,7 @@ section.service .service-text .title p {
 
 /*====== whyus css start ======*/
 section.whyus{
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 section.whyus h2.maintitle{
 border: unset;
@@ -606,7 +612,7 @@ section.whyus .whyright img {
     height: 500px;
 }
 section#projectFacts{
-    transform: translate(0px, -152px);
+    transform: translate(0px, -95px);
 }
 .projectFactsWrap {
     display: grid;
@@ -741,10 +747,24 @@ section.Network .map {
 section.Network .netText {
     padding: 100px 50px 0 0;
 }
-
+section.Network .form{
+    background-color: #00235A;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+section.Network .form h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+section.Network .form form .icon {
+    transform: translate(215px, -39px);
+    color: #00235A;
+}
+/* 
 section.Network .query-form {
     width: 100%;
-    background-color: #fff;
+    background-color: #00235A;
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
     padding: 30px 40px;
     border-radius: 5px;
@@ -782,16 +802,18 @@ section.Network .query-form form button a{
     color: #00235A;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 /*====== Network css end ======*/
 
 
 
 /*====== testimonial css start ======*/
 section.testimonial {
-    padding: 100px 0;
+    padding: 0px 0 50px;
 }
-
+section.testimonial h2.maintitle {
+    border: unset;
+}
 section.testimonial .item {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -1090,7 +1112,7 @@ section.abt-content {
 
 .team-info .team-info-front {
     padding: 30px 30px 0px 30px;
-    border-bottom: 5px solid #FF5E14;
+    border-bottom: 5px solid #6FA9CB;
     box-shadow: 0px 19px 33px rgb(111 109 113 / 13%);
 }
 
@@ -1102,15 +1124,15 @@ section.abt-content {
     transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
     background: #FF5E14;
     opacity: 0;
-    padding: 30px;
+    padding: 20px;
     border-bottom: 5px solid #00235A;
 }
 
 .team-info .team-info-back h3 {
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .team-info .team-info-back p {
@@ -1363,8 +1385,80 @@ section.blog-detail .detail-content p.secparah {
 section.service-page {
     padding-bottom: 100px;
 }
+section.service_card .item {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding: 30px;
+    height: 100%;
+}
+section.service_card .item h3 {
+    color: #00235A;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px 0 10px;
+}
+section.service_card .item p{
+    height: 250px;
+}
+section.service_card .item .link_text {
+    position: relative;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: -110px;
+    visibility: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    -webkit-transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
+    -ms-transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
+    transition: visibility 0.4s ease,margin-right 0.4s ease-out,text-indent 0.5s ease-out,opacity 0.4s ease;
+    will-change: visibility,margin-right,text-indent,opacity;
+}
+section.service_card .item .link_icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+}
+section.service_card .item:hover .link_text{
+    text-indent: 0px;
+    visibility: visible;
+    opacity: 1;
+    color: #fff;
+} 
+section.service_card .item:hover .link_icon{
+    color: #fff;
+}
+/* section.service_card .item .link_icon:before {
+    font-size: 11px;
+    line-height: inherit;
+    font-weight: 400;
+    font-style: inherit;
+    content: '\f061';
+    display: inline-block;
+    vertical-align: top;
+    color: currentColor;
+} */
+section.service_card .item:hover{
+    background-color: #00235A;
+}
+section.service_card .item:hover h3{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+section.service_card .item:hover p{
+    color: #fff;
+    transition: all 0.3s ease;
+}
 
-section.service-page .top-content {
+
+section.service_card
+/* section.service-page .top-content {
     text-align: center;
     padding: 50px 0;
 }
@@ -1402,48 +1496,60 @@ section.service-page .top-content ul li {
 section.service-page ul.org-list li {
     color: #FF5E14;
     font-size: 13px;
-}
+} */
 
 
 /*===================/
     contact us page css
  /=================*/
-section.form {
-    padding: 50px 0;
+ section.form{
+    padding: 0 0px 50px;
+ }
+ section.form h2 {
+    padding-bottom: 10px;
 }
-section.form form .form-control {
+ section.form form {
+    background: #00235A;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form form .form-control {
     background: #F5F6FB;
     border: #F5F6FB;
     padding: 15px 20px;
 }
 
-section.form form .form-control:focus {
-    box-shadow: 0 0 0 0.1rem rgb(0 35 90);
+.form form .form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgb(111 169 203);
 }
 
-section.form form .form-control::placeholder {
+.form form .form-control::placeholder {
     color: #6F6D71;
     font-size: 15px;
 }
 
-section.form form .form-control:focus::placeholder {
+.form form .form-control:focus::placeholder {
     color: #00235A;
 }
 
 section.form form .icon {
-    transform: translate(400px, -39px);
+    transform: translate(380px, -39px);
     color: #00235A;
 }
 
-section.form button {
-    background: #00235A;
-    border: #00235A;
-    color: #FEFEFE;
+.form button {
+    background: #6FA9CB;
+    border: #6FA9CB;
+    color: #00235A;
     padding: 15px 50px;
-    margin: 50px auto;
+    margin: 30px auto 0;
     display: block;
 }
-
+.form button a{
+    color: #00235A;
+}
 section.map-location {
     padding-bottom: 100px;
 }

@@ -22,10 +22,10 @@ $.fn.jQuerySimpleCounter = function( options ) {
 };
 
 
-$('#number1').jQuerySimpleCounter({end: 250,duration: 3000});
-$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
+$('#number1').jQuerySimpleCounter({end: 3,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 370,duration: 3000});
 $('#number3').jQuerySimpleCounter({end: 15,duration: 2000});
-$('#number4').jQuerySimpleCounter({end: 1500,duration: 2500});
+$('#number4').jQuerySimpleCounter({end: 3,duration: 2500});
 
 
 
