@@ -667,6 +667,18 @@ section#projectFacts {
 /*====== whyus css end ======*/
 
 
+section.index.form {
+    padding: 50px 0;
+    background: #00235A;
+}
+
+section.index.form h4 {
+    color: #fff !important;
+}
+
+section.index.form h2 {
+    color: #fff !important;
+}
 
 /*====== logo css start ======
  section.logo {
@@ -764,7 +776,7 @@ section.blog_slider button svg {
 
 
 /*====== Network css end ======*/
-section.Network {
+/* section.Network {
     background: #00122F;
     margin-top: 50px;
     padding: 50px 0;
@@ -795,7 +807,7 @@ section.Network .form h3 {
 section.Network .form form .icon {
     transform: translate(215px, -39px);
     color: #00235A;
-}
+} */
 
 /* 
 section.Network .query-form {
@@ -853,10 +865,7 @@ section.testimonial h2.maintitle {
 }
 
 section.testimonial .item {
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    padding: 10px;
 }
 
 section.testimonial .testi-item {
@@ -1561,29 +1570,11 @@ section.service-page ul.org-list li {
     contact us page css
  /=================*/
 section.form {
-    padding: 0 0px 50px;
-}
+    padding: 50px 0px;
 
-section.form {
-    background: #00235A;
+}
+section.form{
     padding: 50px 0;
-}
-
-section.form h4 {
-    color: #fff !important;
-}
-
-section.form h2 {
-    color: #fff !important;
-}
-
-section.form form {
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-section.form button {
-    width: 30%;
 }
 
 .form form .form-control {

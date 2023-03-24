@@ -251,10 +251,10 @@
     section.abt-content {
         padding: 50px 0 0 0;
     }
-
+/* 
     section.abt-content.pb-5 {
         padding-bottom: 0 !important;
-    }
+    } */
 
     /*  blog page */
     section.blog {
@@ -372,12 +372,20 @@
     section.map-location {
         padding-bottom: 0px;
     }
-
+    section.map-location .logo_add img {
+        width: 80px;
+    }
     section.form form .icon {
         transform: translate(330px, -39px);
-        color: #FF5E14;
     }
-
+    section.map-location .add_detail{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 0px;
+    }
+    section.form h2 {
+        font-size: 18px;
+    }
 
 
 }
