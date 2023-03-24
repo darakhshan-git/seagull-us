@@ -632,6 +632,14 @@ section#projectFacts{
     font-size: 30px;
     font-weight: 600;
 }
+.projectFactsWrap .item .countsign {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.projectFactsWrap .item .countsign p.sign{
+    font-size: 30px;
+}
 /*====== whyus css end ======*/
 
 
