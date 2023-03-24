@@ -376,7 +376,7 @@
         width: 80px;
     }
     section.form form .icon {
-        transform: translate(330px, -39px);
+        transform: translate(320px, -39px);
     }
     section.map-location .add_detail{
         grid-template-columns: repeat(1,1fr);
@@ -385,6 +385,9 @@
     }
     section.form h2 {
         font-size: 18px;
+    }
+    .form button{
+        width: unset;
     }
 
 
