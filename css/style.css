@@ -453,8 +453,12 @@ section.banner_slider .banner-text p {
     width: 50%;
     padding: 10px 0;
     z-index: 10;
+    font-size: 20px;
 }
-
+section.banner_slider .carousel-control-next {
+    z-index: 99999 !important;
+}
+/* 
 section.banner_slider button {
     background: #FEFEFE;
     border: 2px solid #FEFEFE;
@@ -462,7 +466,7 @@ section.banner_slider button {
     width: 20%;
     padding: 10px;
     z-index: 10;
-}
+} */
 
 /*====== banner_slider css end ======*/
 
@@ -574,7 +578,7 @@ section.service .service-text:after {
     background: #6FA9CB;
     left: -49%;
     top: -50px;
-    width: 900px;
+    width: 950px;
     height: 650px;
     z-index: -1;
     transform: skew(20deg);
@@ -592,7 +596,10 @@ section.service .service-text button {
 section.service .service-text button a {
     color: #FEFEFE;
 }
-
+section.service .service-text .serve{
+    display: flex;
+    align-items: center;
+}
 section.service .service-text .title {
     width: 70%;
 }
@@ -621,6 +628,7 @@ section.whyus h2.maintitle {
 
 section.whyus p {
     color: #000;
+    font-size: 20px;
 }
 
 section.whyus .whyright img {
@@ -995,7 +1003,7 @@ section.footer .foot-item p a {
 }
 
 section.footer .foot-item img {
-    width: 50%;
+    width: 70%;
 }
 
 section.copyright {
@@ -1105,7 +1113,7 @@ section.team button a {
 }
 
 section.abt-content {
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 
@@ -1181,17 +1189,18 @@ section.abt-content {
     -o-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
     -ms-transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
     transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
-    background: #FF5E14;
+    background: #00235A;
     opacity: 0;
     padding: 20px;
-    border-bottom: 5px solid #00235A;
+    border-bottom: 5px solid #285785;
 }
 
 .team-info .team-info-back h3 {
     color: #fff;
     padding-bottom: 5px;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .team-info .team-info-back p {
@@ -1389,7 +1398,7 @@ section.blog .blog-card .author svg {
 
 .blog-paginatn .pagination .page-item.active .page-link {
     background-color: #fff;
-    color: #FF5E14;
+    color: #00235A;
 }
 
 .blog-paginatn nav ul li .page-link {
@@ -1406,7 +1415,7 @@ section.blog .blog-card .author svg {
 }
 
 .blog-paginatn nav ul li a.button {
-    background: #FF5E14;
+    background: #00235A;
     color: #FEFEFE;
     border-radius: unset !important;
     padding: 10px 30px;
@@ -1452,16 +1461,23 @@ section.service_card .item {
     padding: 30px;
     height: 100%;
 }
+section.service_card .item img {
+    width: 50px;
+}
+section.service_card .item:hover img{
+    filter: invert(60%) sepia(69%) saturate(4%) hue-rotate(26deg) brightness(209%) contrast(109%);
+}
 
+
+section.service_card .item:hover{
+    transition: background-color 0.3s ease-out,box-shadow 0.3s ease-out;
+    box-shadow: 0 5px 30px rgb(41 72 208);
+}
 section.service_card .item h3 {
     color: #00235A;
     font-size: 20px;
     text-transform: capitalize;
     padding: 20px 0 10px;
-}
-
-section.service_card .item p {
-    height: 250px;
 }
 
 section.service_card .item .link_text {

@@ -114,7 +114,7 @@
 
   <!-- banner_slider section start  -->
   <section class="banner_slider">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="bann-slide" style="background: url(images/banner-slide.png);">
@@ -128,8 +128,6 @@
           <div class="bann-slide" style="background: url(images/banner-slide.png);">
             <div class="banner-text">
               <h1 class="text-white">We focus on providing customers with total logistics solutions</h1>
-              <!-- <p>We value our relationship with client and embrace
-                the future with an open mind</p> -->
             </div>
           </div>
         </div>
@@ -137,8 +135,6 @@
           <div class="bann-slide" style="background: url(images/banner-slide.png);">
             <div class="banner-text">
               <h1 class="text-white">Rely on our efficient freight management services for reliable solutions</h1>
-              <!-- <p>We value our relationship with client and embrace
-                the future with an open mind</p> -->
             </div>
           </div>
         </div>
@@ -150,6 +146,16 @@
           </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
   <!-- banner_slider section end  -->
@@ -216,22 +222,16 @@
       <div class="service-text">
         <!-- <h4 class="text-white pb-3">Service</h4> -->
         <h2 class="text-white ">Our Service</h2>
-        <div class="d-flex gap-4 py-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
-            <path fill="#fff"
-              d="M226.4 72.7a12.7 12.7 0 0 0-4.5-4.4l-88-49.5a12.4 12.4 0 0 0-11.8 0l-88 49.5a12.7 12.7 0 0 0-4.5 4.4a11.8 11.8 0 0 0-1.6 6v98.6a11.9 11.9 0 0 0 6.1 10.5l88 49.5a12.3 12.3 0 0 0 5.6 1.5h.6a13.7 13.7 0 0 0 5.6-1.5l88-49.5a11.9 11.9 0 0 0 6.1-10.5V78.7a12.5 12.5 0 0 0-1.6-6ZM126 25.7a4.3 4.3 0 0 1 4 0L215.9 74l-87 49.4L40.2 74ZM38 180.8a4 4 0 0 1-2-3.5V80.8l88.9 49.5l-.8 98.9Zm180 0l-85.9 48.3l.8-98.8L220 80.9v96.4a4 4 0 0 1-2 3.5Z" />
-          </svg>
+        <div class="serve gap-4 py-4">
+          <img src="images/Cargo.png">
           <div class="title">
             <h6>Ocean Freight</h6>
             <p>Our strategic partnerships with Oceanic freight carriers give us the capability to provide you with a
               reliable and cost-effective freight services with multiple carrier options across the globe</p>
           </div>
         </div>
-        <div class="d-flex gap-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 256 256">
-            <path fill="#fff"
-              d="M226.4 72.7a12.7 12.7 0 0 0-4.5-4.4l-88-49.5a12.4 12.4 0 0 0-11.8 0l-88 49.5a12.7 12.7 0 0 0-4.5 4.4a11.8 11.8 0 0 0-1.6 6v98.6a11.9 11.9 0 0 0 6.1 10.5l88 49.5a12.3 12.3 0 0 0 5.6 1.5h.6a13.7 13.7 0 0 0 5.6-1.5l88-49.5a11.9 11.9 0 0 0 6.1-10.5V78.7a12.5 12.5 0 0 0-1.6-6ZM126 25.7a4.3 4.3 0 0 1 4 0L215.9 74l-87 49.4L40.2 74ZM38 180.8a4 4 0 0 1-2-3.5V80.8l88.9 49.5l-.8 98.9Zm180 0l-85.9 48.3l.8-98.8L220 80.9v96.4a4 4 0 0 1-2 3.5Z" />
-          </svg>
+        <div class="serve gap-4">
+          <img src="images/Globe.png" >
           <div class="title">
             <h6>Customs & Documentation </h6>
             <p>Our in-house customs clearance agents are experts in local specifications, conditions, and regulations
@@ -560,8 +560,9 @@
   <!-- /* form section start */ -->
   <section class="index form">
     <div class="container">
-      <h4 class="subtitle text-center color">Query Form   </h4>
-      <h2 class="maintitle text-center color" style="border: unset;">Have a query or need a quote? <br> Get in touch </h2>
+      <h4 class="subtitle text-center color">Query Form </h4>
+      <h2 class="maintitle text-center color" style="border: unset;">Have a query or need a quote? <br> Get in touch
+      </h2>
       <form class="pt-5">
         <div class="row">
           <div class="form-group col-md-6 col-12">
@@ -683,11 +684,13 @@
       autoplayHoverPause: true,
       responsive: {
         0: {
-          items: 1,
+          items: 1.5,
+          margin: 10,
         },
         600: {
-          items: 1,
-          nav: false
+          items: 1.5,
+          nav: false,
+          margin: 10,
         },
         1000: {
           items: 3,
