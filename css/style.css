@@ -598,7 +598,10 @@ section.service .service-text button a {
 }
 section.service .service-text .serve{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+section.service .service-text .serve img {
+    width: 50px;
 }
 section.service .service-text .title {
     width: 70%;
@@ -1357,7 +1360,9 @@ section.blog .blog-card {
     margin-bottom: 50px;
     cursor: pointer;
 }
-
+section.blog .blog-card.top_blog {
+    display: block;
+}
 section.blog .blog-card img {
     width: 100%;
     height: 250px;
@@ -1373,7 +1378,9 @@ section.blog .blog-card .author {
     gap: 20px;
     padding-top: 10px;
 }
-
+section.blog .blog-card.top_blog .author p {
+    width: 80%;
+}
 section.blog .blog-card .author p {
     width: 70%;
 }
