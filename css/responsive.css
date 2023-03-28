@@ -29,12 +29,20 @@
         height: 60px;
         left: -10px;
     }
+    section.homeslide {
+        overflow-x: hidden;
+        overflow-y: clip;
+    }
+    section.banner_slider .bann-slide {
+        background-position: 65% 50% !important;
+    }
     section.banner_slider .carousel-control-next {
         right: -70px;
     }
     section.banner_slider .carousel-control-prev{
         left: -70px;
     }
+
     .header-main {
         /* justify-content: right; */
         padding: 10px 20px 10px 0;
@@ -161,6 +169,9 @@
     section.blog_slider button.owl-next{
         transform: translate(0px, -220px);
     } */
+    section.whyus p {
+        font-size: 15px;
+    }
     section#projectFacts{
         transform: unset;
     }
