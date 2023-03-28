@@ -29,7 +29,12 @@
         height: 60px;
         left: -10px;
     }
-
+    section.banner_slider .carousel-control-next {
+        right: -70px;
+    }
+    section.banner_slider .carousel-control-prev{
+        left: -70px;
+    }
     .header-main {
         /* justify-content: right; */
         padding: 10px 20px 10px 0;
