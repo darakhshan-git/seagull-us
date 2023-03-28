@@ -102,7 +102,9 @@
     section.cards .item {
         margin-bottom: 50px;
     }
-
+    section.serv-banner{
+        background-position: 30% 0% !important;
+    }
     section.service {
         height: 100%;
         margin-top: 0px;
