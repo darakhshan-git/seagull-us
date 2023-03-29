@@ -661,7 +661,7 @@ section#projectFacts {
 }
 
 .projectFactsWrap .item .number {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
 }
 
@@ -1485,7 +1485,8 @@ section.service_card .item:hover img{
 
 section.service_card .item:hover{
     transition: background-color 0.3s ease-out,box-shadow 0.3s ease-out;
-    box-shadow: 0 5px 30px rgb(41 72 208);
+    /* box-shadow: 0 5px 30px rgb(41 72 208); */
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 section.service_card .item h3 {
     color: #00235A;
