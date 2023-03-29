@@ -184,7 +184,12 @@
     section.about {
         padding: 30px 0;
     }
-
+    section.about .row.reverse {
+        flex-direction: column-reverse;
+    }
+    section.about .row.reverse h2{
+        margin-left: 0px !important;
+    }
     section.secCard .item {
         padding: 30px 20px 0;
     }
