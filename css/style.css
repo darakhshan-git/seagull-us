@@ -892,9 +892,11 @@ section.testimonial .testi-item span {
     display: inline-block;
 }
 
+
 section.testimonial .testi-item p.parah {
     color: #000;
-    padding: 20px 0px 50px 20px;
+    padding: 20px 0px 0 20px;
+    height: 170px;
 }
 
 section.testimonial .testi-item h6 {
