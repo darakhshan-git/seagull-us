@@ -338,7 +338,7 @@ section.both-header .header nav.nav-menu {
         height: 100%;
         top: 0;
         overflow-y: auto;
-        background-color: #222222;
+        background-color: #00235A;
         z-index: 1000;
         padding: 15px 0;
         transition: all 0.5s ease;
@@ -366,9 +366,9 @@ section.both-header .header nav.nav-menu {
         border-bottom: 1px solid #333333;
     }
 
-    .header .menu>.menu-item:first-child>a {
+    /* .header .menu>.menu-item:first-child>a {
         border-top: 1px solid #333333;
-    }
+    } */
 
     .header .menu>.menu-item>a .plus:before,
     .header .menu>.menu-item>a .plus:after {
@@ -907,7 +907,7 @@ section.testimonial .testi-item h6 {
 
 section.testimonial .testi-item .author {
     background: #F8F8F8;
-    padding: 0px 20px 10px;
+    padding: 1px 20px;
 }
 
 section.testimonial .testi-item .author p {
@@ -1250,7 +1250,17 @@ section.abt-content {
     transform: rotate3d(1, 0, 0, 0deg);
     opacity: 1
 }
-
+section.about .abtright p{
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+section.about .abtleft h2 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 440px;
+    /* width: 100%; */
+}
 /* h2.border-org {
     border-right: 3px solid #FF5E14;
 }
@@ -1680,11 +1690,13 @@ section.map-location .add_detail {
 
 section.map-location .add_detail .block {
     background-color: #00235A;
-    padding: 40px 20px;
+    padding: 20px;
     text-align: center;
 }
-
-section.map-location .add_detail .block h6 {
+section.map-location .add_detail .block h6{
+    margin: 0;
+}
+section.map-location .add_detail .block h6 a{
     padding-bottom: 15px;
     color: #AFE0FC;
     font-size: 20px;
